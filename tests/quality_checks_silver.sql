@@ -1,7 +1,20 @@
 /*
-==================================================================================================================================
---> This script is a "DATA QUALITY CHECK" script intended to perform various data correctness checks across all 6 tables.
-==================================================================================================================================
+========================================================================================================================================
+This script is a "DATA QUALITY CHECK" script intended to perform various data correctness checks across all 6 tables.
+========================================================================================================================================
+
+Script purpose: This script performs various quality checks for data consistency, accuracy & standardization across the silver schema.
+It includes checks for:
+1. NULL or duplicate PRIMARY KEYS.
+2. Unwanted spaces in STRING fields.
+3. Data standardization & consistency.
+4. Invalid date range and orders.
+5. Data consistency between related fields.
+
+Usage notes:
+1. Run these checks in the silver layer post data loading.
+2. Investigate and resolve any descrepancies found during the checks.
+==========================================================================================================================================
 */
 
 /*
