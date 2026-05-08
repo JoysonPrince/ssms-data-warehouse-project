@@ -26,6 +26,9 @@
 
 
 
+
+
+
 2. ***gold.dim_products:***
    - Purpose: Provides information about the products and their attributes.
    - Columns:
@@ -43,6 +46,9 @@
      | maintenance | NVARCHAR(50) | Indicates whether the product requires any maintenance (Eg: 'Yes', 'No') |
      | cost | INT | The cost or base price of the product measured in monetary units |
      | start_date | DATE | The date when the product became available for sale or use or store-in |
+
+
+
 
 
 
