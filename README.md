@@ -2,9 +2,11 @@
 
 Welcome to the **Data WareHouse and Analytics project** repository.
 
-### Main goal: Building a modern data warehouse using MS SQL Server including ETL, Data modeling and Analytics - using a Medallion Architecture
---> This project demonstrates a comprehensive data warehousing and analytics solution. From building a Data Warehouse to generating actionable insights.
---> This project is designed as a portfolio project to showcase my skills as it highlights industry best practices in data engineering and analytics.
+## Main goal: 
+Building a modern data warehouse using MS SQL Server including ETL, Data modeling and Analytics - using a Medallion Architecture
+
+1. This project demonstrates a comprehensive data warehousing and analytics solution. From building a Data Warehouse to generating actionable insights.
+2. This project is designed as a portfolio project to showcase my skills as it highlights industry best practices in data engineering and analytics.
 
 
 ## 🚀 Project Requirements
@@ -22,6 +24,34 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
+## ETL concepts & techniques used:
+  ### EXTRACTION:
+  1. EXTRACTION Technique: ***FILE PARSING:*** *Data parsing from csv files located within the local machine folder*
+  2. EXTRACTION Type: ***FULL EXTRACTION:*** *FULL Data load everyday into the Data warehouse*
+  3. EXTRACTION Method: ***PULL EXTRACTION:*** *Pull data from source*
+
+  ### TRANSFORMATION:
+  #### Transformation techniques:
+  1. Data Enrichment
+  2. Data Integration
+  3. Derived columns
+  4. Data Normalization and Data standardization
+  5. Data aggregations
+  6. Applying business rules and logic
+
+  #### Data cleansing:
+  1. Removed duplicates: Data quality check on the PRIMARY KEY
+  2. Data filtering
+  3. Handling missing values: NULL, ZERO VALUES, etc.
+  4. Handling invalid values
+  5. Handling unwanted whitespaces
+  6. Data Type Casting
+  7. Outlier detection
+  
+  ### LOAD:
+  1. LOAD Processing type: ***BATCH PROCESSING:*** *Loading data in a single batch*
+  2. LOAD Method: ***FULL LOAD: TRUNCATE & INSERT***
+
 
 ### BI: Analytics & Reporting (Data Analysis)
 
