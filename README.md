@@ -1,4 +1,4 @@
-# ssms-data-warehouse-project
+# SSMS-Data-Warehouse-project
 
 Welcome to the **Data WareHouse and Analytics project** repository.
 
@@ -9,7 +9,7 @@ Building a modern data warehouse using MS SQL Server including ETL, Data modelin
 2. This project is designed as a portfolio project to showcase my skills as it highlights industry best practices in data engineering and analytics.
 
 
-## 🚀 Project Requirements
+## Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
@@ -63,8 +63,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-## 🛡️ License
-
+## License:
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 
